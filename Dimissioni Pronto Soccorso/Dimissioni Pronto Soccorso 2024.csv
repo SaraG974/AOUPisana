@@ -1,0 +1,12 @@
+Descrizione Esito Dimissione,Codice Esito Dimissione,Numero Di Accessi Pronto Soccorso,Esito Generale
+Abbandona Il Ps In Corso Di Accertamenti Eo Prima Della Chiusura Della Cartella Clinica,7,456,Uscita Autonoma
+Abbandona Il Ps Prima Della Visita Medica,6,6752,Uscita Autonoma
+Deceduto In Ps,4,240,Esito Critico
+Dimissione A Domicilio,1,68394,Dimissioni
+Dimissione Volontaria,V,999,Uscita Autonoma
+Giunto Cadavere,9,13,Esito Critico
+Ricovero In Reparto Di Degenza,2,13636,Ricovero
+Rifiuta Ricovero,5,513,Uscita Autonoma
+Trasferimento A Struttura Territoriale,A,14,Trasferimento
+Trasferimento Ad Altro Istituto,3,500,Trasferimento
+Trasferito In Specialistica,20,2,Trasferimento
