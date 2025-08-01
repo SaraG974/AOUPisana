@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  <rdf:RDF xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:locn="http://www.w3.org/ns/locn#" xmlns:hydra="http://www.w3.org/ns/hydra/core#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dcat="http://www.w3.org/ns/dcat#" xmlns:dct="http://purl.org/dc/terms/" xmlns:dcatapit="http://dati.gov.it/onto/dcatapit#" xmlns:vcard="http://www.w3.org/2006/vcard/ns#" xmlns:adms="http://www.w3.org/ns/adms#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gsp="http://www.opengis.net/ont/geosparql#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<dcatapit:Catalog rdf:about="https://github.com/SaraG974/AOUPisana/tree/main">
+  <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Catalog"/>
+  <dct:title>Azienda Ospedaliero-Universitaria Pisana</dct:title>
+  <dct:publisher>
+    <dcatapit:Agent rdf:about="aou_pisa">
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+      <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+      <dct:identifier>aou_pisa</dct:identifier>
+      <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+    </dcatapit:Agent>
+  </dct:publisher>
+  <dct:description>Open Data sanitari Azienda Ospedaliro-Universitaria Pisana</dct:description>
+  <dct:language>it</dct:language>
+  <foaf:homepage rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main#"/>
+  <dcat:themeTaxonomy>
+    <skos:ConceptScheme rdf:about="http://publications.europa.eu/resource/authority/data-theme">
+      <dct:title>Data Theme Vocabulary</dct:title>
+    </skos:ConceptScheme>
+  </dcat:themeTaxonomy>
+  <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:modified>
+  <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:issued>
+  <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcat:dataset rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/dimissioni-pronto-soccorso"/>
+  <dcat:dataset rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/prestazioni-specialistica-ambulatoriale"/>
+  <dcat:dataset rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/schede-dimissioni-ospedaliere"/>
+  </dcatapit:Catalog>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/dimissioni-pronto-soccorso">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>Dimissioni Pronto Soccorso</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/Dimissioni%20Pronto%20Soccorso/"/>
+    <dct:description>Fornisce i dati delle dimissioni di pronto soccorso</dct:description>
+    <dct:identifier>aou_pisa:dimissioni-pronto-soccorso</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="aou_pisa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dcat:keyword>Pronto Soccorso</dcat:keyword>
+    <dcat:keyword>Emergenza</dcat:keyword>
+    <dcat:keyword>Dimissioni</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/dimissioni-pronto-soccorso/csv2"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/prestazioni-specialistica-ambulatoriale">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>Prestazioni Specialistica Ambulatoriale</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/Prestazioni%20Specialistica%20Ambulatoriale/"/>
+    <dct:description>Fornisce i dati delle prestazioni di specialistica ambulatoriale</dct:description>
+    <dct:identifier>aou_pisa:prestazioni-specialistica-ambulatoriale</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="aou_pisa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dcat:keyword>Specialistica Ambulatoriale</dcat:keyword>
+    <dcat:keyword>Accesso</dcat:keyword>
+    <dcat:keyword>Ospedale</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/prestazioni-specialistica-ambulatoriale/csv3"/>
+  </dcatapit:Dataset>
+  <skos:Concept rdf:about="http://publications.europa.eu/resource/authority/data-theme/HEAL">
+    <skos:prefLabel>Salute</skos:prefLabel>
+  </skos:Concept>
+  <dcatapit:Dataset rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/schede-dimissioni-ospedaliere">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+    <dct:license/>
+    <dct:title>Schede Dimissioni Ospedaliere</dct:title>
+    <dcat:landingPage rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/Schede%20Dimissioni%20Ospedaliere/"/>
+    <dct:description>Fornisce i dati sulle schede di dimissioni ospedaliere</dct:description>
+    <dct:identifier>aou_pisa:schede-dimissioni-ospedaliere</dct:identifier>
+    <dct:accrualPeriodicity rdf:resource="http://publications.europa.eu/resource/authority/frequency/ANNUAL"/>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dct:rightsHolder>
+      <dcatapit:Agent rdf:about="aou_pisa">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:rightsHolder>
+    <dct:publisher>
+      <dcatapit:Agent rdf:nodeID="Nd117aa7f2e7b47fb9481d4a8aca59c7d">
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+        <dct:identifier>aou_pisa</dct:identifier>
+        <foaf:name>Azienda Ospedaliero-Universitaria Pisana</foaf:name>
+      </dcatapit:Agent>
+    </dct:publisher>
+    <dct:subject>
+      <skos:Concept rdf:about="http://eurovoc.europa.eu/100215">
+        <rdf:type rdf:resource="http://dati.gov.it/onto/dcatapit#subTheme"/>
+        <skos:prefLabel xml:lang="it">2841 salute</skos:prefLabel>
+      </skos:Concept>
+    </dct:subject>
+    <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ITA"/>
+    <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-07-31</dct:issued>
+    <dcat:contactPoint rdf:resource="https://www.ao-pisa.toscana.it/"/>
+    <dcat:keyword>Dimissioni Ospedaliere</dcat:keyword>
+    <dcat:keyword>DRG</dcat:keyword>
+    <dcat:keyword>SDO</dcat:keyword>
+    <dcat:distribution rdf:resource="https://github.com/SaraG974/AOUPisana/tree/main/schede-dimissioni-ospedaliere/csv4"/>
+  </dcatapit:Dataset>
+  <dcatapit:Distribution rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/dimissioni-pronto-soccorso/csv2">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/SaraG974/AOUPisana/refs/heads/main/Dimissioni%20Pronto%20Soccorso/Dimissioni%20Pronto%20Soccorso%202024.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Border entry CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/prestazioni-specialistica-ambulatoriale/csv3">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/SaraG974/AOUPisana/refs/heads/main/Prestazioni%20Specialistica%20Ambulatoriale/Prestazioni%20Specialistiche%20Ambulatoriali%202024%20v2.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Border entry CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+  <dcatapit:Distribution rdf:about="https://github.com/SaraG974/AOUPisana/tree/main/schede-dimissioni-ospedaliere/csv4">
+    <dcat:accessURL rdf:resource="https://raw.githubusercontent.com/SaraG974/AOUPisana/refs/heads/main/Schede%20Dimissioni%20Ospedaliere/Scheda%20di%20Dimissioni%20Ospedaliere%202024%20v2.csv"/>
+    <dct:license>
+      <dcatapit:LicenseDocument rdf:about="https://creativecommons.org/licenses/by/4.0/">
+        <rdf:type rdf:resource="dct:LicenseDocument"/>
+        <dct:type rdf:resource="http://purl.org/adms/licencetype/Attribution"/>
+        <foaf:name>Creative Commons Attribuzione 4.0 Internazionale (CC BY 4.0)</foaf:name>
+      </dcatapit:LicenseDocument>
+    </dct:license>
+    <dct:format rdf:resource="CSV"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:description>File in formato CSV per l'interoperabilità</dct:description>
+    <dct:title>Border entry CSV</dct:title>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+  </dcatapit:Distribution>
+<dcatapit:Organization rdf:about="https://www.ao-pisa.toscana.it/">
+  <rdf:type rdf:resource="vcard:Organization"/>
+  <rdf:type rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Kind"/>
+  <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Organization"/>
+  <rdf:type rdf:resource="vcard:Kind"/>
+  <vcard:fn>Azienda Ospedaliero-Universitaria Pisana</vcard:fn>
+  <vcard:hasEmail rdf:resource="sa.giuntini@ao-pisa.toscana.it"/>
+  <vcard:hasTelephone>50992111</vcard:hasTelephone>
+  <vcard:hasURL rdf:resource="https://www.ao-pisa.toscana.it/"/>
+</dcatapit:Organization>
+</rdf:RDF>
